@@ -18,3 +18,18 @@ Affiliations
 
 
 **Description**. In this demo we analyze the methylation profiles of more than 390K valid CpG sites in 187 PCPG samples using the *self-organizing map* (SOM) algorithm to obtain 187 component planes that are visual epigenetic signatures of the PCPG tumors. We arranged these SOM planes spatially according to their methylation similarities, and labeled the tumors presenting mutations related to pseudohypoxia conditions, involved in PCPG development and progression. The results reveal cluster structure for these tumors, providing evidences of epigenetic mechanisms involved and suggesting our approach as a complementary analysis tool.
+
+
+## Datasets
+Datasets used in this example (not included in this repo) 
+
+```
+TCGA-PCPG.methylation450.tsv        # methylation data
+illuminaMethyl450_hg38_GDC.csv      # ID to gene mapping
+```
+
+can be found in `tar.gz` format at the Xenabrowser portal:
+
+https://xenabrowser.net/datapages/
+- cohort: *GDC TCGA Pheochromocytoma & Paraganglioma (PCPG)*
+- dataset: *DNA methylation - Illumina Human Methylation 450*
